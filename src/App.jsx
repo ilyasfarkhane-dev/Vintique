@@ -4,6 +4,7 @@ import Login from "./components/auth/login/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from "./components/hero/Hero";
 import TopCategories from "./components/top-categories/TopCategories";
+import Category from "./components/category/Category";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Hero />
         <TopCategories />
+        <Category />
         <Routes>
           <Route path="/login" element={<Login />} />
         </Routes>

@@ -70,7 +70,7 @@ export default function Example({ isOpen, onClose }) {
                           <button
                             type="button"
                             className="relative -m-2 p-2 text-gray-400 hover:text-gray-500"
-                            onClick={() => isOpen(false)}
+                            onClick={() => onClose(true)}
                           >
                             <span className="absolute -inset-0.5" />
                             <span className="sr-only">Close panel</span>
